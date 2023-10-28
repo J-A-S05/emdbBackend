@@ -3,6 +3,7 @@ import cors from "cors";
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 
+const DB = process.env.DB
 const PORT = process.env.PORT || 5000
 const app = express();
 
